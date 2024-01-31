@@ -40,6 +40,11 @@ Buttons.
 | Cararra | ![#313131](https://via.placeholder.com/10/313131?text=+) #313131 |
 | White | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
+## Font
+
+| Gilroy                     |
+| :------------------------- |
+
 
 ## Run Locally
 
