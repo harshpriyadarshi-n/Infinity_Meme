@@ -13,12 +13,16 @@ https://infinity-meme.vercel.app/
 - clicking on the Reddit logo takes you straight to the hilarious world of r/memes.
 
 
-## Screenshots
+## Gifs
 
-![Screenshot 2024-01-31 191620](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/b84e301f-091c-4dc1-9087-4a3f3a953509)
-![screen-capture (6)](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/c3985722-a833-4e09-a104-d3927ef15ca3)
+![screen-capture (6)](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/0a7ef1ca-c1bd-4f94-8871-9d185b736803)
+Infinite Scroll.
+
 ![screen-capture (2)](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/2d37bb59-c34f-47dc-ad31-aa9794bde263)
+Navigation.
+
 ![screen-capture (3)](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/0752f3f4-43e3-4d18-824c-4d8582a8df5f)
+Buttons.
 
 
 ## Json File
