@@ -135,3 +135,12 @@
       opacity: 0.5;
     }
   }
+
+    @font-face {
+    font-family: 'Gilroy';
+    src: url('/public/GILROY-EXTRABOLD.OTF') format('otf');
+  }
+
+  .body {
+    font-family: 'Gilroy', Gilroy;
+  }
