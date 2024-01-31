@@ -13,3 +13,10 @@
     text-wrap: balance;
   }
 }
+
+@font-face { 
+  font-family: "Gilroy"; 
+  src: url('../public/GILROY-LIGHT.OTF'); 
+  font-weight: normal; 
+  font-style: normal; 
+} 
