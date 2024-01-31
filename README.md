@@ -16,7 +16,7 @@ https://infinity-meme.vercel.app/
 ## Screenshots
 
 ![Screenshot 2024-01-31 191620](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/b84e301f-091c-4dc1-9087-4a3f3a953509)
-![Image](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/5c63e3a0-9fdd-4cf9-8d47-ae9b5088fcbf)
+![screen-capture (6)](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/c3985722-a833-4e09-a104-d3927ef15ca3)
 ![screen-capture (2)](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/2d37bb59-c34f-47dc-ad31-aa9794bde263)
 ![screen-capture (3)](https://github.com/harshpriyadarshi-n/Infinity_Meme/assets/99008122/0752f3f4-43e3-4d18-824c-4d8582a8df5f)
 
