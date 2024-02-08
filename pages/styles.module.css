@@ -1,86 +1,129 @@
-.heading {
+.greenBar {
     position: fixed;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'monolog', sans-serif;
-    font-size: 40px;
-    color: #fa4d65;
-}
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(88, 191, 67, 0.9);
+    padding: 10px;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+  }
 
-.heart {
-  position: fixed;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  opacity: 0.2;
-}
-
-.image {
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.buttonyes {
+  .logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
     transition: transform 0.3s ease-in-out;
+  }
+
+  .logoContainer:hover {
+    transform: scale(1.1);
+  }
+
+  .GithubButton {
     position: fixed;
     font-family: 'Gilroy', Gilroy;
     font-weight: bolder;
-    top: 65%;
-    left: 38%;
-    background-color: rgba(248, 76, 64, 0.8);
-    backdrop-filter: blur(0.5px);
-    color: #f5f5f7;
-    padding: 10px 38px;
+    top: 15px;
+    left: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(88, 191, 67);
+    padding: 10px 20px;
     cursor: pointer;
     font-size: 17px;
-    border-radius: 20px;
-    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
     transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
     transition: transform 0.3s ease-in-out;
     z-index: 1;
   }
-
-  .buttonno {
-    position: fixed;
-    transform: translateX(50%);
-    font-family: 'Gilroy', Gilroy;
-    font-weight: bolder;
-    top: 65%;
-    right: 41%;
-    background-color: #f5f5f7;
-    color: rgba(248, 77, 64, 0.8);
-    padding: 10px 38px;
-    cursor: pointer;
-    font-size: 17px;
-    border-radius: 20px;
-    border: 1px solid rgba(248, 76, 64, 0.8);
-    z-index: 0;
-    transition: transform 0.4s ease-in-out,;
+  
+  .GithubButton:hover {
+    background-color: #58bf43;
+    color: #ffffff;
+    transform: scale(1.1);
   }
 
-  .buttonno.shiftDown:hover {
-    transform: translateX(-100px) scale(0.5);
-    cursor: not-allowed;
-    filter: opacity(0.8) blur(1px) grayscale(1);
+  @media (max-width: 767px) {
+    .GithubButton {
+      top: 92%;
+      left: 3%;
+    }
   }
 
-  .buttonyes:hover::before {
+  .GithubButton:hover::before {
     content: '';
-    border-radius: 19px;
+    border-radius: 5px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
-    background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.423), transparent);
+    background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.588), transparent);
     animation: loadingAnimation 1.5s infinite ease-in-out;
   }
 
+  .background {
+    background-color: rgb(234, 234, 230)
+  }
+
+  .modal {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+  }
+
+  .modalContent {
+    position: relative;
+    margin: auto;
+    display: block;
+    max-height: 700px;
+    max-width: 700px;
+  }
+
+  .navigationButton {
+    position: fixed;
+    top: 50%;
+    font-size: 70px;
+    cursor: pointer;
+    color: rgba(88, 191, 67, 0.7);
+    padding: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navigationButton:hover {
+    color: rgb(88, 191, 67);
+    font-size: 77px;
+  }
+  
+  .previousButton {
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .nextButton {
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  .close {
+    position: fixed;
+    top: 1px;
+    right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    cursor: pointer;
+  }
+  
   @keyframes loadingAnimation {
     0% {
       opacity: 0.5;
@@ -90,72 +133,5 @@
     }
     100% {
       opacity: 0.5;
-    }
-  }
-
-  .paragraphContainer {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-  }
-  
-  .paragraph {
-    font-family: 'Gopher', sans-serif;
-    font-size: 40px;
-    margin-top: 4%;
-    color: #1d1d1f;
-  }
-  
-  .dearPookie {
-    font-family: 'GopherB', sans-serif;
-    font-size: 80px;
-    color: #fc97a5;
-  }
-
-  .tc {
-    font-family: 'Gopher', sans-serif;
-    font-size: 10px;
-    position: absolute;
-    left: 50%;
-    top: 165%;
-    transform: translate(-50%, -50%)
-  }
-
-  .italics {
-    font-family: 'GopherI', sans-serif;
-  }
-
-  @media (max-width: 600px) {
-    .paragraph {
-      font-size: 20px; 
-      margin-top: 10%;
-    }
-  
-    .dearPookie {
-      font-size: 35px;
-    }
-
-    .paragraphContainer {
-      margin-top: 20%;
-    }
-
-    .buttonno {
-      right: 50%;
-      top: 85%;
-    }
-
-    .heart {
-      top: 50%;
-      left: 50%;
-    }
-
-    .tc {
-      top: 140%;
-    }
-
-    .heading {
-      font-size: 30px;
-      display: flex;
-      text-align: center;
     }
   }
